@@ -1,11 +1,42 @@
 <mxfile host="65bd71144e">
     <diagram id="HIP3nbAZw_EuaXWnEj3U" name="Page-1">
-        <mxGraphModel dx="399" dy="236" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="643" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="7" value="http://ics2o.mths.ca" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="7" value="div" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="40" width="760" height="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Basic Division Program&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry y="30" width="230" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="7">
+                    <mxGeometry width="100" relative="1" as="geometry">
+                        <mxPoint y="70" as="sourcePoint"/>
+                        <mxPoint x="760" y="70" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Enter the two numbers you want to divide&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="10" y="90" width="300" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;u&gt;Number...&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/u&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="30" y="130" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;u&gt;Number...&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/u&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="30" y="190" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;÷&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="40" y="160" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Calculate&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+                    <mxGeometry x="20" y="230" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;The answer is: [answer]&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="7">
+                    <mxGeometry x="20" y="290" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="7">
+                    <mxGeometry x="580" y="80" width="172" height="172" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
