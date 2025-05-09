@@ -8,4 +8,15 @@
 
 function myButtonClicked() {
   let answer = 0
+  let firstInput = parseInt(document.getElementById("first-input").value)
+  const secondInput = parseInt(document.getElementById("second-input").value)
+  while (true) {
+    if (firstInput < secondInput) {
+      break
+    }
+    firstInput -= secondInput
+    answer++
+  }
+  document.getElementById("answer").innerHTML = 
+    "<p>The answer is: " + answer + "<br />The remainder is: " + firstInput + "</p>"
 }
